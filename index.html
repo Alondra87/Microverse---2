@@ -47,8 +47,8 @@
       <p>A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).</p>
       <p>You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.</p>
     </section>
-    <section class="main-section" id="Declare_Variables">
-      <header>Declare Variables</header>
+    <section class="main-section" id="Declaring_Variables">
+      <header>Declaring Variables</header>
       <p>You can declare a variable in three ways:</p>
       <p>With the keyword var. For example,</p>
       <code>var x = 42.</code>
@@ -60,8 +60,8 @@
       <code>let y = 13.</code>
       <p>This syntax can be used to declare a block scope local variable. See Variable scope below.</p>
     </section>
-    <section class="main-section" id="Variable_scope">
-      <header>Variable scope</header> 
+    <section class="main-section" id="Variables_scope">
+      <header>Variables scope</header> 
     <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.</p>
     <p>JavaScript before ECMAScript 2015 does not have block statement scope; rather, a variable declared within a block is local to the function (or global scope) that the block resides within. For example the following code will log 5, because the scope of x is the function (or global context) within which x is declared, not the block, which in this case is an if statement.</p>
     <code>if (true) { var x = 5; } console.log(x); // 5</code>
@@ -72,22 +72,18 @@
     
   </main>
   <nav id="navbar">
-  </nav>
+    <header>JS Documentation</header>
+    <a class="nav-link" href="#Introduction"><p>Introduction</p></a>
+    <a class="nav-link" href="#What_you_should_already_know"><p>What you should already know</p></a>
+    <a class="nav-link" href="#JavaScript_and_Java"><p>JavaScript and Java</p></a>
+    <a class="nav-link" href="#Hello_world"><p>Hello world</p></a>
+    <a class="nav-link" href="#Variables"><p>Variables</p></a>
+    <a class="nav-link" href="#Declaring_Variables"><p>Declaring variables</p></a>
+    <a class="nav-link" href="#Variables_scope"><p>Variables scope</p></a>
+   </nav>
     
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <!--
-
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
     <script  src="js/index.js"></script>
   </body>
 </html>
